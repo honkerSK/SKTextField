@@ -27,6 +27,8 @@
 		0477714C237B9E6A00CDEB17 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777141237B9E6A00CDEB17 /* MASConstraint.m */; };
 		0477714D237B9E6A00CDEB17 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777143237B9E6A00CDEB17 /* MASViewConstraint.m */; };
 		0477714E237B9E6A00CDEB17 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777144237B9E6A00CDEB17 /* MASViewAttribute.m */; };
+		04777154237BA94A00CDEB17 /* SKBlockTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777153237BA94A00CDEB17 /* SKBlockTextField.m */; };
+		0477715A237BA97900CDEB17 /* SKBlockTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777159237BA97900CDEB17 /* SKBlockTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,10 @@
 		0477714F237B9EA800CDEB17 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04777150237B9F0C00CDEB17 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
 		04777151237B9F1600CDEB17 /* ConstantDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantDefinition.h; sourceTree = "<group>"; };
+		04777152237BA94A00CDEB17 /* SKBlockTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBlockTextField.h; sourceTree = "<group>"; };
+		04777153237BA94A00CDEB17 /* SKBlockTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBlockTextField.m; sourceTree = "<group>"; };
+		04777158237BA97900CDEB17 /* SKBlockTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBlockTextView.h; sourceTree = "<group>"; };
+		04777159237BA97900CDEB17 /* SKBlockTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBlockTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,10 @@
 				04777125237B9DEA00CDEB17 /* SKTextField.m */,
 				04777127237B9DEA00CDEB17 /* SKTextView.h */,
 				04777128237B9DEA00CDEB17 /* SKTextView.m */,
+				04777152237BA94A00CDEB17 /* SKBlockTextField.h */,
+				04777153237BA94A00CDEB17 /* SKBlockTextField.m */,
+				04777158237BA97900CDEB17 /* SKBlockTextView.h */,
+				04777159237BA97900CDEB17 /* SKBlockTextView.m */,
 			);
 			path = SKTextField;
 			sourceTree = "<group>";
@@ -359,6 +369,7 @@
 				04777149237B9E6A00CDEB17 /* MASLayoutConstraint.m in Sources */,
 				04777102237B9BA100CDEB17 /* main.m in Sources */,
 				047770F4237B9BA000CDEB17 /* AppDelegate.m in Sources */,
+				0477715A237BA97900CDEB17 /* SKBlockTextView.m in Sources */,
 				0477714E237B9E6A00CDEB17 /* MASViewAttribute.m in Sources */,
 				0477714A237B9E6A00CDEB17 /* NSArray+MASAdditions.m in Sources */,
 				04777147237B9E6A00CDEB17 /* MASCompositeConstraint.m in Sources */,
@@ -369,6 +380,7 @@
 				0477714D237B9E6A00CDEB17 /* MASViewConstraint.m in Sources */,
 				04777145237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0477714C237B9E6A00CDEB17 /* MASConstraint.m in Sources */,
+				04777154237BA94A00CDEB17 /* SKBlockTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
