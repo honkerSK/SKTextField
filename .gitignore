@@ -16,6 +16,17 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+profile
+DerivedData
+.idea/
+UserInterfaceState.xcuserstate
+project.xcworkspace/
+UserInterface.xcuserstate
+Podfile.lock
+
+# OS X
+.DS_Store
+
 
 ## Other
 *.moved-aside
