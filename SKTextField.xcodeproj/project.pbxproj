@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047770F4237B9BA000CDEB17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047770F3237B9BA000CDEB17 /* AppDelegate.m */; };
+		047770F7237B9BA000CDEB17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047770F6237B9BA000CDEB17 /* ViewController.m */; };
+		047770FA237B9BA000CDEB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047770F8237B9BA000CDEB17 /* Main.storyboard */; };
+		047770FC237B9BA100CDEB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047770FB237B9BA100CDEB17 /* Assets.xcassets */; };
+		047770FF237B9BA100CDEB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047770FD237B9BA100CDEB17 /* LaunchScreen.storyboard */; };
+		04777102237B9BA100CDEB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777101237B9BA100CDEB17 /* main.m */; };
+		0477710C237B9BA200CDEB17 /* SKTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477710B237B9BA200CDEB17 /* SKTextFieldTests.m */; };
+		04777117237B9BA200CDEB17 /* SKTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777116237B9BA200CDEB17 /* SKTextFieldUITests.m */; };
+		04777129237B9DEA00CDEB17 /* SKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777125237B9DEA00CDEB17 /* SKTextField.m */; };
+		0477712A237B9DEA00CDEB17 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777128237B9DEA00CDEB17 /* SKTextView.m */; };
+		04777145237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477712D237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		04777146237B9E6A00CDEB17 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777136237B9E6A00CDEB17 /* ViewController+MASAdditions.m */; };
+		04777147237B9E6A00CDEB17 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477713A237B9E6A00CDEB17 /* MASCompositeConstraint.m */; };
+		04777148237B9E6A00CDEB17 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477713B237B9E6A00CDEB17 /* MASConstraintMaker.m */; };
+		04777149237B9E6A00CDEB17 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477713C237B9E6A00CDEB17 /* MASLayoutConstraint.m */; };
+		0477714A237B9E6A00CDEB17 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477713D237B9E6A00CDEB17 /* NSArray+MASAdditions.m */; };
+		0477714B237B9E6A00CDEB17 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477713E237B9E6A00CDEB17 /* View+MASAdditions.m */; };
+		0477714C237B9E6A00CDEB17 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777141237B9E6A00CDEB17 /* MASConstraint.m */; };
+		0477714D237B9E6A00CDEB17 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777143237B9E6A00CDEB17 /* MASViewConstraint.m */; };
+		0477714E237B9E6A00CDEB17 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04777144237B9E6A00CDEB17 /* MASViewAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04777108237B9BA200CDEB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047770E7237B9BA000CDEB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047770EE237B9BA000CDEB17;
+			remoteInfo = SKTextField;
+		};
+		04777113237B9BA200CDEB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047770E7237B9BA000CDEB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047770EE237B9BA000CDEB17;
+			remoteInfo = SKTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047770EF237B9BA000CDEB17 /* SKTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047770F2237B9BA000CDEB17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047770F3237B9BA000CDEB17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047770F5237B9BA000CDEB17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047770F6237B9BA000CDEB17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047770F9237B9BA000CDEB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047770FB237B9BA100CDEB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047770FE237B9BA100CDEB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04777100237B9BA100CDEB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04777101237B9BA100CDEB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04777107237B9BA200CDEB17 /* SKTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477710B237B9BA200CDEB17 /* SKTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTextFieldTests.m; sourceTree = "<group>"; };
+		0477710D237B9BA200CDEB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04777112237B9BA200CDEB17 /* SKTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04777116237B9BA200CDEB17 /* SKTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTextFieldUITests.m; sourceTree = "<group>"; };
+		04777118237B9BA200CDEB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04777125237B9DEA00CDEB17 /* SKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextField.m; sourceTree = "<group>"; };
+		04777126237B9DEA00CDEB17 /* SKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextField.h; sourceTree = "<group>"; };
+		04777127237B9DEA00CDEB17 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
+		04777128237B9DEA00CDEB17 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
+		0477712C237B9E6A00CDEB17 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0477712D237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0477712E237B9E6A00CDEB17 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0477712F237B9E6A00CDEB17 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		04777130237B9E6A00CDEB17 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		04777131237B9E6A00CDEB17 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		04777132237B9E6A00CDEB17 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		04777133237B9E6A00CDEB17 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		04777134237B9E6A00CDEB17 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		04777135237B9E6A00CDEB17 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		04777136237B9E6A00CDEB17 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		04777137237B9E6A00CDEB17 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		04777138237B9E6A00CDEB17 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		04777139237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0477713A237B9E6A00CDEB17 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0477713B237B9E6A00CDEB17 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0477713C237B9E6A00CDEB17 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0477713D237B9E6A00CDEB17 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0477713E237B9E6A00CDEB17 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0477713F237B9E6A00CDEB17 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		04777140237B9E6A00CDEB17 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		04777141237B9E6A00CDEB17 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		04777142237B9E6A00CDEB17 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		04777143237B9E6A00CDEB17 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		04777144237B9E6A00CDEB17 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0477714F237B9EA800CDEB17 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04777150237B9F0C00CDEB17 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		04777151237B9F1600CDEB17 /* ConstantDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantDefinition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047770EC237B9BA000CDEB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04777104237B9BA200CDEB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477710F237B9BA200CDEB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047770E6237B9BA000CDEB17 = {
+			isa = PBXGroup;
+			children = (
+				047770F1237B9BA000CDEB17 /* SKTextField */,
+				0477710A237B9BA200CDEB17 /* SKTextFieldTests */,
+				04777115237B9BA200CDEB17 /* SKTextFieldUITests */,
+				047770F0237B9BA000CDEB17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047770F0237B9BA000CDEB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047770EF237B9BA000CDEB17 /* SKTextField.app */,
+				04777107237B9BA200CDEB17 /* SKTextFieldTests.xctest */,
+				04777112237B9BA200CDEB17 /* SKTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047770F1237B9BA000CDEB17 /* SKTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0477714F237B9EA800CDEB17 /* PrefixHeader.pch */,
+				04777150237B9F0C00CDEB17 /* MacroDefinition.h */,
+				04777151237B9F1600CDEB17 /* ConstantDefinition.h */,
+				0477712B237B9E6A00CDEB17 /* Masonry */,
+				04777124237B9BBA00CDEB17 /* SKTextField */,
+				047770F2237B9BA000CDEB17 /* AppDelegate.h */,
+				047770F3237B9BA000CDEB17 /* AppDelegate.m */,
+				047770F5237B9BA000CDEB17 /* ViewController.h */,
+				047770F6237B9BA000CDEB17 /* ViewController.m */,
+				047770FB237B9BA100CDEB17 /* Assets.xcassets */,
+				04777100237B9BA100CDEB17 /* Info.plist */,
+				047770FD237B9BA100CDEB17 /* LaunchScreen.storyboard */,
+				04777101237B9BA100CDEB17 /* main.m */,
+				047770F8237B9BA000CDEB17 /* Main.storyboard */,
+			);
+			path = SKTextField;
+			sourceTree = "<group>";
+		};
+		0477710A237B9BA200CDEB17 /* SKTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				0477710B237B9BA200CDEB17 /* SKTextFieldTests.m */,
+				0477710D237B9BA200CDEB17 /* Info.plist */,
+			);
+			path = SKTextFieldTests;
+			sourceTree = "<group>";
+		};
+		04777115237B9BA200CDEB17 /* SKTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04777116237B9BA200CDEB17 /* SKTextFieldUITests.m */,
+				04777118237B9BA200CDEB17 /* Info.plist */,
+			);
+			path = SKTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		04777124237B9BBA00CDEB17 /* SKTextField */ = {
+			isa = PBXGroup;
+			children = (
+				04777126237B9DEA00CDEB17 /* SKTextField.h */,
+				04777125237B9DEA00CDEB17 /* SKTextField.m */,
+				04777127237B9DEA00CDEB17 /* SKTextView.h */,
+				04777128237B9DEA00CDEB17 /* SKTextView.m */,
+			);
+			path = SKTextField;
+			sourceTree = "<group>";
+		};
+		0477712B237B9E6A00CDEB17 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0477712C237B9E6A00CDEB17 /* MASCompositeConstraint.h */,
+				0477712D237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0477712E237B9E6A00CDEB17 /* MASConstraint+Private.h */,
+				0477712F237B9E6A00CDEB17 /* MASLayoutConstraint.h */,
+				04777130237B9E6A00CDEB17 /* NSArray+MASShorthandAdditions.h */,
+				04777131237B9E6A00CDEB17 /* MASConstraintMaker.h */,
+				04777132237B9E6A00CDEB17 /* View+MASAdditions.h */,
+				04777133237B9E6A00CDEB17 /* NSArray+MASAdditions.h */,
+				04777134237B9E6A00CDEB17 /* MASUtilities.h */,
+				04777135237B9E6A00CDEB17 /* MASViewAttribute.h */,
+				04777136237B9E6A00CDEB17 /* ViewController+MASAdditions.m */,
+				04777137237B9E6A00CDEB17 /* MASViewConstraint.h */,
+				04777138237B9E6A00CDEB17 /* MASConstraint.h */,
+				04777139237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0477713A237B9E6A00CDEB17 /* MASCompositeConstraint.m */,
+				0477713B237B9E6A00CDEB17 /* MASConstraintMaker.m */,
+				0477713C237B9E6A00CDEB17 /* MASLayoutConstraint.m */,
+				0477713D237B9E6A00CDEB17 /* NSArray+MASAdditions.m */,
+				0477713E237B9E6A00CDEB17 /* View+MASAdditions.m */,
+				0477713F237B9E6A00CDEB17 /* View+MASShorthandAdditions.h */,
+				04777140237B9E6A00CDEB17 /* Masonry.h */,
+				04777141237B9E6A00CDEB17 /* MASConstraint.m */,
+				04777142237B9E6A00CDEB17 /* ViewController+MASAdditions.h */,
+				04777143237B9E6A00CDEB17 /* MASViewConstraint.m */,
+				04777144237B9E6A00CDEB17 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047770EE237B9BA000CDEB17 /* SKTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477711B237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextField" */;
+			buildPhases = (
+				047770EB237B9BA000CDEB17 /* Sources */,
+				047770EC237B9BA000CDEB17 /* Frameworks */,
+				047770ED237B9BA000CDEB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTextField;
+			productName = SKTextField;
+			productReference = 047770EF237B9BA000CDEB17 /* SKTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04777106237B9BA200CDEB17 /* SKTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477711E237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextFieldTests" */;
+			buildPhases = (
+				04777103237B9BA200CDEB17 /* Sources */,
+				04777104237B9BA200CDEB17 /* Frameworks */,
+				04777105237B9BA200CDEB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04777109237B9BA200CDEB17 /* PBXTargetDependency */,
+			);
+			name = SKTextFieldTests;
+			productName = SKTextFieldTests;
+			productReference = 04777107237B9BA200CDEB17 /* SKTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04777111237B9BA200CDEB17 /* SKTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04777121237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextFieldUITests" */;
+			buildPhases = (
+				0477710E237B9BA200CDEB17 /* Sources */,
+				0477710F237B9BA200CDEB17 /* Frameworks */,
+				04777110237B9BA200CDEB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04777114237B9BA200CDEB17 /* PBXTargetDependency */,
+			);
+			name = SKTextFieldUITests;
+			productName = SKTextFieldUITests;
+			productReference = 04777112237B9BA200CDEB17 /* SKTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047770E7237B9BA000CDEB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = KentSun;
+				TargetAttributes = {
+					047770EE237B9BA000CDEB17 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					04777106237B9BA200CDEB17 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 047770EE237B9BA000CDEB17;
+					};
+					04777111237B9BA200CDEB17 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 047770EE237B9BA000CDEB17;
+					};
+				};
+			};
+			buildConfigurationList = 047770EA237B9BA000CDEB17 /* Build configuration list for PBXProject "SKTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047770E6237B9BA000CDEB17;
+			productRefGroup = 047770F0237B9BA000CDEB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047770EE237B9BA000CDEB17 /* SKTextField */,
+				04777106237B9BA200CDEB17 /* SKTextFieldTests */,
+				04777111237B9BA200CDEB17 /* SKTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047770ED237B9BA000CDEB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047770FF237B9BA100CDEB17 /* LaunchScreen.storyboard in Resources */,
+				047770FC237B9BA100CDEB17 /* Assets.xcassets in Resources */,
+				047770FA237B9BA000CDEB17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04777105237B9BA200CDEB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04777110237B9BA200CDEB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047770EB237B9BA000CDEB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047770F7237B9BA000CDEB17 /* ViewController.m in Sources */,
+				0477712A237B9DEA00CDEB17 /* SKTextView.m in Sources */,
+				04777149237B9E6A00CDEB17 /* MASLayoutConstraint.m in Sources */,
+				04777102237B9BA100CDEB17 /* main.m in Sources */,
+				047770F4237B9BA000CDEB17 /* AppDelegate.m in Sources */,
+				0477714E237B9E6A00CDEB17 /* MASViewAttribute.m in Sources */,
+				0477714A237B9E6A00CDEB17 /* NSArray+MASAdditions.m in Sources */,
+				04777147237B9E6A00CDEB17 /* MASCompositeConstraint.m in Sources */,
+				04777148237B9E6A00CDEB17 /* MASConstraintMaker.m in Sources */,
+				0477714B237B9E6A00CDEB17 /* View+MASAdditions.m in Sources */,
+				04777146237B9E6A00CDEB17 /* ViewController+MASAdditions.m in Sources */,
+				04777129237B9DEA00CDEB17 /* SKTextField.m in Sources */,
+				0477714D237B9E6A00CDEB17 /* MASViewConstraint.m in Sources */,
+				04777145237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0477714C237B9E6A00CDEB17 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04777103237B9BA200CDEB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477710C237B9BA200CDEB17 /* SKTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477710E237B9BA200CDEB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04777117237B9BA200CDEB17 /* SKTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04777109237B9BA200CDEB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047770EE237B9BA000CDEB17 /* SKTextField */;
+			targetProxy = 04777108237B9BA200CDEB17 /* PBXContainerItemProxy */;
+		};
+		04777114237B9BA200CDEB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047770EE237B9BA000CDEB17 /* SKTextField */;
+			targetProxy = 04777113237B9BA200CDEB17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047770F8237B9BA000CDEB17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047770F9237B9BA000CDEB17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047770FD237B9BA100CDEB17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047770FE237B9BA100CDEB17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04777119237B9BA200CDEB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0477711A237B9BA200CDEB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0477711C237B9BA200CDEB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKTextField/PrefixHeader.pch";
+				INFOPLIST_FILE = SKTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0477711D237B9BA200CDEB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKTextField/PrefixHeader.pch";
+				INFOPLIST_FILE = SKTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0477711F237B9BA200CDEB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTextField.app/SKTextField";
+			};
+			name = Debug;
+		};
+		04777120237B9BA200CDEB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTextField.app/SKTextField";
+			};
+			name = Release;
+		};
+		04777122237B9BA200CDEB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKTextField;
+			};
+			name = Debug;
+		};
+		04777123237B9BA200CDEB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6GT7P4WQU;
+				INFOPLIST_FILE = SKTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KentSun.SKTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047770EA237B9BA000CDEB17 /* Build configuration list for PBXProject "SKTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04777119237B9BA200CDEB17 /* Debug */,
+				0477711A237B9BA200CDEB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477711B237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477711C237B9BA200CDEB17 /* Debug */,
+				0477711D237B9BA200CDEB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477711E237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477711F237B9BA200CDEB17 /* Debug */,
+				04777120237B9BA200CDEB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04777121237B9BA200CDEB17 /* Build configuration list for PBXNativeTarget "SKTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04777122237B9BA200CDEB17 /* Debug */,
+				04777123237B9BA200CDEB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047770E7237B9BA000CDEB17 /* Project object */;
+}

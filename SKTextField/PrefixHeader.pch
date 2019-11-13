@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  SKTextField
+//
+//  Created by macApple on 2019/11/13.
+//  Copyright © 2019 KentSun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "MacroDefinition.h"
+#import "ConstantDefinition.h"
+
+
+#endif /* PrefixHeader_pch */
