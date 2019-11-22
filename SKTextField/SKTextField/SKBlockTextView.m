@@ -7,10 +7,14 @@
 //
 
 #import "SKBlockTextView.h"
+
 /*
  欲用此控件就不能设置代理，用block代替
  */
 @interface SKBlockTextView()<UITextViewDelegate>
+
+@property (nonatomic, strong) UILabel *placeholderLabel;
+@property (nonatomic, strong) UILabel *textNumLabel; //限制字数label
 
 @end
 
@@ -45,7 +49,6 @@
 
 #pragma mark - UITextViewDelegate
 - (void)textViewDidChange:(UITextView *)textView {
-    
     NSString *toBeString = textView.text;
     if (toBeString.length > 0) { // 显示隐藏占位符
         self.placeholderLabel.hidden = YES;
@@ -136,7 +139,7 @@
 - (UILabel *)placeholderLabel {
     if (_placeholderLabel) return _placeholderLabel;
     _placeholderLabel = [[UILabel alloc] init];
-    _placeholderLabel.textColor = [UIColor lightGrayColor];
+    _placeholderLabel.textColor = COLORCCCCCC();
     _placeholderLabel.font = [UIFont systemFontOfSize:14];
     _placeholderLabel.numberOfLines = 0;
     return _placeholderLabel;

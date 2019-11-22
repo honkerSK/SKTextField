@@ -12,7 +12,6 @@
  */
 @interface SKBlockTextField()<UITextFieldDelegate>
 
-
 @end
 
 @implementation SKBlockTextField

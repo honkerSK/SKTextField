@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040B3CB7237BD3CF00CE35FB /* SKTextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3CB6237BD3CF00CE35FB /* SKTextFieldVC.m */; };
+		040B3CBA237BD3E300CE35FB /* SKBlockTextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3CB9237BD3E300CE35FB /* SKBlockTextFieldVC.m */; };
 		047770F4237B9BA000CDEB17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047770F3237B9BA000CDEB17 /* AppDelegate.m */; };
 		047770F7237B9BA000CDEB17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047770F6237B9BA000CDEB17 /* ViewController.m */; };
 		047770FA237B9BA000CDEB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047770F8237B9BA000CDEB17 /* Main.storyboard */; };
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040B3CB5237BD3CF00CE35FB /* SKTextFieldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTextFieldVC.h; sourceTree = "<group>"; };
+		040B3CB6237BD3CF00CE35FB /* SKTextFieldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTextFieldVC.m; sourceTree = "<group>"; };
+		040B3CB8237BD3E300CE35FB /* SKBlockTextFieldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBlockTextFieldVC.h; sourceTree = "<group>"; };
+		040B3CB9237BD3E300CE35FB /* SKBlockTextFieldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBlockTextFieldVC.m; sourceTree = "<group>"; };
 		047770EF237B9BA000CDEB17 /* SKTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047770F2237B9BA000CDEB17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047770F3237B9BA000CDEB17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -160,6 +166,10 @@
 				047770F3237B9BA000CDEB17 /* AppDelegate.m */,
 				047770F5237B9BA000CDEB17 /* ViewController.h */,
 				047770F6237B9BA000CDEB17 /* ViewController.m */,
+				040B3CB5237BD3CF00CE35FB /* SKTextFieldVC.h */,
+				040B3CB6237BD3CF00CE35FB /* SKTextFieldVC.m */,
+				040B3CB8237BD3E300CE35FB /* SKBlockTextFieldVC.h */,
+				040B3CB9237BD3E300CE35FB /* SKBlockTextFieldVC.m */,
 				047770FB237B9BA100CDEB17 /* Assets.xcassets */,
 				04777100237B9BA100CDEB17 /* Info.plist */,
 				047770FD237B9BA100CDEB17 /* LaunchScreen.storyboard */,
@@ -377,7 +387,9 @@
 				0477714B237B9E6A00CDEB17 /* View+MASAdditions.m in Sources */,
 				04777146237B9E6A00CDEB17 /* ViewController+MASAdditions.m in Sources */,
 				04777129237B9DEA00CDEB17 /* SKTextField.m in Sources */,
+				040B3CBA237BD3E300CE35FB /* SKBlockTextFieldVC.m in Sources */,
 				0477714D237B9E6A00CDEB17 /* MASViewConstraint.m in Sources */,
+				040B3CB7237BD3CF00CE35FB /* SKTextFieldVC.m in Sources */,
 				04777145237B9E6A00CDEB17 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0477714C237B9E6A00CDEB17 /* MASConstraint.m in Sources */,
 				04777154237BA94A00CDEB17 /* SKBlockTextField.m in Sources */,

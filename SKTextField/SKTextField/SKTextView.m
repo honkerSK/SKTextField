@@ -45,6 +45,7 @@
         make.top.left.right.mas_equalTo(0);
         make.height.mas_equalTo(120);
     }];
+
     textView.textContainerInset = UIEdgeInsetsMake(6, 8, 6, 8);
     
     [self.placeholderLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -64,16 +65,16 @@
         make.right.equalTo(textView);
     }];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(textViewDidChangeText:)
-                                                 name:UITextViewTextDidChangeNotification
-                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(textViewDidChangeText:)
+//                                                 name:UITextViewTextDidChangeNotification
+//                                               object:nil];
 
 }
 
-- (void)dealloc{
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
+//- (void)dealloc{
+//    [[NSNotificationCenter defaultCenter] removeObserver:self];
+//}
 
 - (void)setMaxLimit:(NSInteger)maxLimit{
     _maxLimit = maxLimit;
@@ -81,7 +82,6 @@
     self.countLb.text = [NSString stringWithFormat:@"0/%ld",maxLimit];
 
 }
-
 
 -(void)setText:(NSString *)text {
     _text = text;
@@ -132,8 +132,8 @@
     }
 }
 // 监听到键盘输入时的文本发生改变
-- (void)textViewDidChangeText:(NSNotification *)notification {
-    
+//- (void)textViewDidChangeText:(NSNotification *)notification {
+- (void)textViewDidChange:(UITextView *)textView{
     NSString *text = self.textView.text;
     if (self.textFieldBlock) {
         self.textFieldBlock(text);

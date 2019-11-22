@@ -13,14 +13,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SKBlockTextView : UITextView
-
+///限制最大字数
 @property (nonatomic, assign) NSInteger limitLength;
-
-@property (nonatomic, strong) UILabel *placeholderLabel;
-
+///占位符文字
 @property (nonatomic, copy) NSString *placeholder;
-
-@property (nonatomic, strong) UILabel *textNumLabel; //限制字数label
 
 #pragma mark - UITextViewDelegate
 
